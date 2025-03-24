@@ -1,0 +1,25 @@
+[23:08:47.844] Namespace(volume_path='../data/Synapse/test_vol_h5', dataset='Synapse', num_classes=9, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=224, is_savenii=False, n_skip=3, vit_name='R50-ViT-B_16_SHA', test_save_dir='../predictions', deterministic=1, base_lr=0.01, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse224')
+[23:08:47.846] TU_pretrain_R50-ViT-B_16_SHA_skip3_bs24_224
+[23:08:47.850] 12 test iterations per epoch
+[23:10:39.850] idx 0 case case0008 mean_dice 0.385039 mean_hd95 51.089924
+[23:11:45.723] idx 1 case case0022 mean_dice 0.500313 mean_hd95 51.333865
+[23:12:58.011] idx 2 case case0038 mean_dice 0.451247 mean_hd95 53.059963
+[23:15:28.188] idx 3 case case0036 mean_dice 0.490332 mean_hd95 59.394529
+[23:17:17.455] idx 4 case case0032 mean_dice 0.407380 mean_hd95 43.855353
+[23:18:56.237] idx 5 case case0002 mean_dice 0.500333 mean_hd95 35.806569
+[23:20:04.861] idx 6 case case0029 mean_dice 0.453565 mean_hd95 32.110199
+[23:22:41.653] idx 7 case case0003 mean_dice 0.364069 mean_hd95 95.701964
+[23:24:32.342] idx 8 case case0001 mean_dice 0.497462 mean_hd95 53.571344
+[23:26:11.942] idx 9 case case0004 mean_dice 0.450554 mean_hd95 43.493170
+[18:49:22.136] Namespace(volume_path='../data/Synapse/test_vol_h5', dataset='Synapse', num_classes=9, list_dir='./lists/lists_Synapse', max_iterations=20000, max_epochs=30, batch_size=24, img_size=224, is_savenii=False, n_skip=3, vit_name='R50-ViT-B_16_SHA', test_save_dir='../predictions', deterministic=1, base_lr=0.01, seed=1234, vit_patches_size=16, Dataset=<class 'datasets.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True, exp='TU_Synapse224')
+[18:49:22.479] TU_pretrain_R50-ViT-B_16_SHA_skip3_bs24_224
+[18:49:23.047] 12 test iterations per epoch
+[18:50:04.011] idx 0 case case0008 mean_dice 0.000067 mean_hd95 46.697163
+[18:50:23.273] idx 1 case case0022 mean_dice 0.000058 mean_hd95 48.991310
+[18:50:45.484] idx 2 case case0038 mean_dice 0.000013 mean_hd95 47.455407
+[18:51:29.025] idx 3 case case0036 mean_dice 0.000039 mean_hd95 48.309872
+[18:51:59.024] idx 4 case case0032 mean_dice 0.000102 mean_hd95 47.173036
+[18:52:29.325] idx 5 case case0002 mean_dice 0.000084 mean_hd95 44.901072
+[18:52:50.403] idx 6 case case0029 mean_dice 0.000063 mean_hd95 47.235497
+[18:53:34.926] idx 7 case case0003 mean_dice 0.000165 mean_hd95 48.608770
+[18:54:07.930] idx 8 case case0001 mean_dice 0.000041 mean_hd95 47.061446
